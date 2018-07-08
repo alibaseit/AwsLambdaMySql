@@ -3,9 +3,7 @@ package com.ozruit.lambda.awslambda;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
-/**
- * @author argu
- */
+
 @Entity
 public class Employee implements java.io.Serializable {
     private int id;
