@@ -35,8 +35,8 @@ public class LambdaFunctionHandler implements RequestHandler<Request, String> {
 		try {
 			// Class.forName("com.mysql.cj.jdbc.Driver");
 			connect = DriverManager.getConnection(
-					"jdbc:mysql://ozruitdb.c6oalrfbg07t.us-west-2.rds.amazonaws.com:3306/ozruitdb", "dogan",
-					"ali108Base");
+					"jdbc:mysql://uuuu.c6oalrfbg07t.llll.rds.amazonaws.com:3306/ozruitdb", "aaaaa",
+					"xxxx");
 			statement = connect.createStatement();
 			resultSet = statement.executeQuery("select name from customer where id = 1 ");
 
