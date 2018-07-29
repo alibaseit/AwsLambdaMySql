@@ -17,11 +17,11 @@ public class HibernateUtil {
         
         Configuration configuration = new Configuration();
 
-        String jdbcUrl = "jdbc:mysql://ozruitdb.c6oalrfbg07t.us-west-2.rds.amazonaws.com:3306/ozruitdb";
+        String jdbcUrl = "jdbc:mysql://yyy.4554.us-west-2.rds.amazonaws.com:3306/ozruitdb";
         
         configuration.setProperty("hibernate.connection.url", jdbcUrl);
-        configuration.setProperty("hibernate.connection.username", "dogan");
-        configuration.setProperty("hibernate.connection.password", "ali108Base");
+        configuration.setProperty("hibernate.connection.username", "aaa");
+        configuration.setProperty("hibernate.connection.password", "xxxxx");
 
         configuration.configure();
         ServiceRegistry serviceRegistry = new StandardServiceRegistryBuilder().applySettings(configuration.getProperties()).build();
